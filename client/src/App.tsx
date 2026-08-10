@@ -28,7 +28,7 @@ function App() {
     <ErrorBoundary>
       <ThemeProvider
         defaultTheme="light"
-        // switchable
+        // Editorial Signal is intentionally light by default; the charcoal sections provide contrast.
       >
         <TooltipProvider>
           <Toaster />
