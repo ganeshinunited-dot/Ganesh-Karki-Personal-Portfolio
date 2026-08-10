@@ -7,3 +7,6 @@
 - [x] Inspect karktech.tech and identify the prototype UI language that can be represented safely in the portfolio.
 - [x] Replace the ChatNp abstract visual with a compact KarkTech prototype preview.
 - [x] Verify the updated ChatNp section and save a new checkpoint.
+- [ ] Inspect the connected Git remote, branch, and working tree.
+- [ ] Commit the latest portfolio checkpoint and push it to the connected repository.
+- [ ] Confirm the pushed commit and provide Vercel deployment guidance.
