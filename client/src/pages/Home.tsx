@@ -2,10 +2,9 @@
 import { useEffect, useState } from "react";
 import { ArrowDownRight, ArrowUpRight, Check, ExternalLink, Github, Linkedin, Mail, Menu, X } from "lucide-react";
 
-const heroVisual = "/manus-storage/ganesh-karki-founder-portrait_f347b2c3.png";
-const chatnpVisual = "/manus-storage/chatnp-atmosphere_dc0133b8.png";
-const visionTexture = "/manus-storage/nepal-global-texture_9d26d24d.png";
-const brandMark = "/manus-storage/ganesh-brand-mark_bcd15dcc.png";
+const heroVisual = "/assets/ganesh-karki-founder-portrait.webp";
+const visionTexture = "/assets/nepal-global-texture.webp";
+const brandMark = "/assets/ganesh-brand-mark.png";
 
 const navItems = [
   { label: "About", href: "#about" },

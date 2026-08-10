@@ -10,6 +10,10 @@
 - [x] Inspect the connected Git remote, branch, and working tree.
 - [x] Commit the latest portfolio checkpoint and push it to the connected repository.
 - [x] Confirm the pushed commit and provide Vercel deployment guidance.
-- [ ] Inspect the live Vercel URL and capture its exact response or error.
-- [ ] Compare the repository build/output configuration with Vercel settings.
-- [ ] Report the root cause and next fix.
+- [x] Inspect the live Vercel URL and capture its exact response or error.
+- [x] Compare the repository build/output configuration with Vercel settings.
+- [x] Report the root cause and next fix.
+- [x] Inventory all Manus-only asset and analytics references.
+- [x] Copy required assets into client/public and update all references.
+- [x] Remove unresolved analytics placeholders and verify the Vercel build.
+- [ ] Push the Vercel-compatible fix to GitHub and report the commit.
