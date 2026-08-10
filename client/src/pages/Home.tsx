@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { ArrowDownRight, ArrowUpRight, Check, ExternalLink, Github, Linkedin, Mail, Menu, X } from "lucide-react";
 
-const heroVisual = "/manus-storage/ganesh-hero-visual_27f99cfb.png";
+const heroVisual = "/manus-storage/ganesh-karki-founder-portrait_f347b2c3.png";
 const chatnpVisual = "/manus-storage/chatnp-atmosphere_dc0133b8.png";
 const visionTexture = "/manus-storage/nepal-global-texture_9d26d24d.png";
 const brandMark = "/manus-storage/ganesh-brand-mark_bcd15dcc.png";
@@ -67,9 +67,9 @@ export default function Home() {
             </div>
             <a className="karktech-link" href="https://karktech.tech" target="_blank" rel="noreferrer">View KarkTech <ExternalLink size={13} /></a>
           </div>
-          <div className="hero-visual reveal-up" aria-label="Abstract technology landscape visual">
-            <img src={heroVisual} alt="Abstract topographic technology landscape inspired by Nepal" />
-            <div className="hero-route-stamp"><span>ORIGIN / NEPAL</span><i /><span>BUILD / 01</span></div><div className="hero-caption"><span>01 / 05</span><span>Building from Nepal</span></div>
+          <div className="hero-visual hero-visual--portrait reveal-up" aria-label="Portrait of Ganesh Karki, founder and product builder">
+            <img src={heroVisual} alt="Ganesh Karki, founder of KarkTech and builder of ChatNp" />
+            <div className="hero-route-stamp"><span>ORIGIN / NEPAL</span><i /><span>BUILD / 01</span></div><div className="hero-caption"><span>01 / 05</span><span>Ganesh Karki / Founder</span></div>
           </div>
           <div className="hero-index" aria-hidden="true">GK<span>—</span>01</div>
         </section>
